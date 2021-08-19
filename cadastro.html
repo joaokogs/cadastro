@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="bg">
+    <h1><b>Rede social</b></h1>
+    <h2>Crie sua conta</h2>
+    <form action="cadastro.html" method="POST">
+        <fieldset>
+            <label class="nomevdd">
+                Primeiro nome:<br/>
+                <input type="text" name="primeiro nome"  required minlength="2" placeholder="Primeiro nome" class="caixa">
+            </label>
+            <label class="nomevdd">
+                Sobrenome:<br/>
+                <input type="text" name="sobrenome" minlength="2" placeholder="Sobrenome" class="caixa">
+            </label>
+<br/>
+            <label class="cadastro2">Nome de usuário:
+<br/>
+                <input type="text" name="nomedeusuario" required minlength="2" maxlength="10" placeholder="Nome de usuário" class="caixa"/>
+            </label>
+            <label class="cadastro2">
+                Email:<br/>
+                <input type="email" name="email" required placeholder="Email" class="caixa"/>
+            </label>
+<br/>
+            <label class="cadastro1">
+                Idade: <br/>
+                <input type="number" name="idade" required min="18" max="140" placeholder="Idade" class="caixa">
+            </label>
+            <label class="cadastro1">
+                Senha:<br/>
+                <input type="password" name="senha" required minlength="4" placeholder="Senha" class="caixa"/>
+            </label>
+            <label>
+                <input type="checkbox" name="check" required id="check">
+                Li e concordo com os <a href="termos de uso.html" target="_blank" class="termoslink">termos de uso.</a>
+            </label>
+        </fieldset>
+        <button>Criar conta</button>
+    </form>
+</body>
+</html>

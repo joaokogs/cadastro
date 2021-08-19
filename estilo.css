@@ -1,0 +1,84 @@
+label{
+  display: block;
+  margin-top: 20px;  
+}
+input{
+    outline: 0;
+}
+.termoslink{
+    color: black;
+    text-decoration: none;
+}
+.termoslink:hover{
+    text-decoration: underline;
+}
+button{
+    padding: 10px;
+    font-size: 15px;
+    border: solid black;
+    background-color: #e8e7dc;
+}
+button:hover{
+    background-color: #9c9a8e;
+}
+.nomevdd{
+    display: inline-table;
+}
+.cadastro1{
+    display: inline-table;
+    margin-left: 40px;
+}
+.cadastro2{
+    display: inline-table;;
+}
+html body{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    background-image: url(https://cdn.shopify.com/s/files/1/0305/4075/9177/products/N05139_2.jpg?v=1610318446);
+    background-repeat: no-repeat;
+    background-size: 200em;
+}
+
+input{
+    background-color: transparent;
+    padding: 6px;
+    border-radius: 6px 6px;
+    border: solid #ffffff;
+}
+
+.caixa::-webkit-input-placeholder{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+fieldset{
+    margin-left: 35em;
+    border: transparent;
+    margin-top: -2em;
+}
+label{
+    font-family: 'Akaya Kanadaka', cursive;
+
+}
+button{
+    margin-left: 46em;
+}
+#check{
+    margin-left: 4em;
+}
+h1{
+    margin-left: 13em;
+    font-size: 50px;
+    margin-top: 2em;
+    font-family: 'Style Script', cursive;
+    margin-bottom: -0.5em;
+}
+h2{
+    margin-left: 28em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#celular{
+    width: 300px;
+    height: 200px;
+}
